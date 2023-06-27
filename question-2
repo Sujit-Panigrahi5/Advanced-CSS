@@ -1,0 +1,60 @@
+// Html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <section class="main">
+        <div class="info">
+            <h1>15+</h1>
+            <span>years Experience</span>
+        </div>
+        <div class="info">
+            <h1>24.5 T+</h1>
+            <span>Invested of Coinyx</span>
+        </div>
+        <div class="info">
+            <h1>115+</h1>
+            <span>Proffessional Team</span>
+        </div>
+        <div class="info">
+            <h1>262+</h1>
+            <span>Total Grobal Node</span>
+        </div>
+    </section>
+</body>
+</html>
+
+// css code
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-image: linear-gradient( to right, rgb(236, 191, 247),rgb(123, 11, 148));
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.info >h1{
+    font-size: 40px;
+    text-align: center;
+    margin-block: 0px;
+    
+}
+.info{
+    padding-block: 1rem;
+    color: aliceblue;
+}
