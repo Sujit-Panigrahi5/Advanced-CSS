@@ -1,0 +1,75 @@
+// html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <section class="contant">
+        <div class="subcon">
+            <div class="head">
+               <h1>#01</h1>
+                <span>Created On:01/01/2023</span>
+            </div>
+            <h1>Important Dates</h1>
+                <ul class="list">
+                    <li>January 26-Republic Day</li>
+                    <li>August 15-independence Day</li>
+                    <li>Octobar 2-Gandhi Jayanti</li>
+                    <li>August 29-National Sports Day</li>
+                </ul>
+            <a href="" class="atag">Mark as Done</a>
+        </div>
+    </section>
+</body>
+</html>
+
+// css code
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.contant{
+    border: 3px solid black;
+    width: 20rem;
+    height: 20rem;
+    background-image:linear-gradient(to top right,rgb(66, 189, 224),rgb(71, 71, 255)) ;
+    margin: 100px;
+   
+    
+}
+.contant:hover{
+    transform: rotate(-45deg);
+}
+.subcon{
+    margin: 1.5rem;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+}
+.list{
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+
+.atag{
+    width: 100%;
+    text-decoration: none;
+    padding: 10px 85px;
+    color: black;
+    background-image: linear-gradient(to  right,rgb(131, 232, 255),rgb(9, 180, 94));
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
