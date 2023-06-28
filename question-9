@@ -1,0 +1,78 @@
+// html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles9.css">
+</head>
+<body>
+    <section class="main">
+        <div class="icon">
+            <img src="./images/applelogo.png" alt="">
+            <h1>Apple inc</h1>
+        </div>
+        <div class="para">
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem sapiente quaerat numquam id optio iure assumenda, nisi harum iste animi? Quam cum, numquam eveniet ad earum tempora dolore, itaque, cupiditate repellat iste debitis officiis quod? Reprehenderit animi officiis alias, possimus obcaecati dolore, blanditiis nulla, expedita doloribus enim totam odit minima sequi sapiente. Non id velit, excepturi quae laboriosam quasi similique dignissimos eligendi blanditiis expedita laudantium eveniet dolorem, obcaecati eius vel aspernatur laborum consequuntur. Commodi tempora eos, aperiam ex hic neque vitae dolorem magnam dolore, voluptatem doloremque tempore mollitia perspiciatis reprehenderit. Amet, illum odit consequuntur expedita dicta reprehenderit, nesciunt sit et, cum deserunt corrupti ratione eligendi tempore inventore voluptas quo eos veritatis aliquid! Eaque facilis delectus natus, laboriosam amet voluptas eligendi, repellendus dolor minima magni necessitatibus fuga aperiam asperiores suscipit rerum dolore qui impedit veritatis, pariatur tempore. Voluptatum veritatis necessitatibus quisquam quae omnis a alias maiores sint repellendus ut sed cumque vero accusamus consequatur, praesentium iusto porro natus repudiandae reiciendis aperiam enim voluptates esse fugiat? Dolorem accusamus amet repellat veritatis nisi illo eligendi accusantium velit nam dicta, aliquam voluptate recusandae, consectetur reprehenderit atque porro cum officia quod enim dolor incidunt? Eius nulla perferendis ut pariatur, praesentium rem tempora ex illo modi aut dignissimos rerum fugit, itaque temporibus? Voluptates libero eveniet ex ipsam atque facilis odit quae nihil aliquam. Inventore quaerat tenetur in animi labore magni distinctio et aperiam, officiis voluptate aut maxime quam, a fugiat voluptatum laboriosam odio iste unde assumenda sunt! Reprehenderit quod debitis, dignissimos excepturi magni magnam iusto fugit, ratione accusantium optio nostrum ducimus, at aliquid exercitationem. Reprehenderit vitae in deserunt omnis eos neque illo tenetur reiciendis, dicta porro natus laboriosam velit. Voluptate sit possimus numquam reiciendis repellat molestiae quisquam nemo quas, consequuntur perspiciatis et, error non porro quo aliquid tempore ducimus necessitatibus facere nihil magnam quos autem voluptas.</p>
+        </div>
+        
+</section>
+</body>
+</html>
+// css code
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    --color1:#ffffff;
+    --color2:#171714;
+    --color3:#a2a2a2;
+    --color4:red;
+}
+.main{
+    width: 30rem;
+    background-color:var(--color2);
+    color: var(--color3);
+    border-radius: 20px ;
+    
+    margin: 20px;
+}
+.para{
+    max-height: 18rem;
+    overflow: auto;
+    margin: 20px;
+    
+}
+.para::-webkit-scrollbar{
+    width: 3px ;   
+    background-color: var(--color2);
+   
+}
+.para::-webkit-scrollbar-thumb{
+   
+    background-color: var(--color3);
+    border-radius: 10px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    max-height:15rem;
+    
+   
+}
+.icon>h1{
+    font-size: 3rem;
+    color: var(--color1);
+}
+.icon>img{
+    width: 60%;
+    
+}
