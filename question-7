@@ -1,0 +1,52 @@
+// html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles7.css">
+</head>
+<body>
+    <div>
+        <a href="" class="atag">Click me to visit PW Skills.</a>
+    </div>
+
+</body>
+</html>
+
+//  css code
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: inline-block;
+    margin: 100px;
+    position: absolute;
+    
+    animation: move 0.5s ease-in 1s infinite alternate ;
+   animation-play-state: running;
+   
+}
+.atag{
+    text-decoration: none;
+    color: aliceblue;
+    /* position: absolute; */
+    padding: 10px 40px;
+    background-image: linear-gradient(to right ,rgb(102, 113, 237),rgb(97, 64, 219));
+    border-radius: 7px;
+    
+}
+@keyframes move {
+    from{
+      top: 100px;
+    }
+    to{
+        top: 120px;
+    }
+}
